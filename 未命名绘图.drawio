@@ -1,62 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T03:18:00.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sEb8djdrYtbA0ue2be1_" version="22.0.8" type="github">
-  <diagram name="第 1 页" id="3cZJkROaUpslTC7YGAy5">
-    <mxGraphModel dx="1674" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100000" pageHeight="100000" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-10-30T04:14:41.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Oj4r6hp6JnEcb3IR3MNb" version="22.0.8" type="github">
+  <diagram name="第 1 页" id="XjCKPW4k2-2xHwj5HMUv">
+    <mxGraphModel dx="1420" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="100000" pageHeight="100000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uL13_3LR5IbQT9p--HEt-2" value="filter recordKey !C00000241" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-3" value="map" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1070" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-4" value="&#xa;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(255, 255, 255, 0.01); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;filter recordKey C00000048&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-5" value="filter recordKey C00000241" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-6" value="filter recordKey is not null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="1400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-7" value="RecordKey&amp;nbsp;.=&amp;nbsp;CO000999&amp;nbsp;AND&amp;nbsp;Recordkey&amp;nbsp;!=&amp;nbsp;C0000041&amp;nbsp;&lt;br&gt;AND&amp;nbsp;Recordkey&amp;nbsp;:=&amp;nbsp;C0000048&amp;nbsp;AND&amp;nbsp;Recordkey&amp;nbsp;!=&amp;nbsp;C0000049" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="690" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-8" value="Set&amp;nbsp;RecordKey&amp;nbsp;=&amp;nbsp;Left(RecordKey-Leng(RecordKey-1)&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;IF(Left(RecordKey,5)&amp;nbsp;=&quot;CO013&quot;&amp;nbsp;THEN&amp;nbsp;RecordKey&amp;nbsp;=&amp;nbsp;&quot;C001300&quot;&amp;nbsp;ELSE&lt;/span&gt;&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;IF(Left(RecordKey,5)&amp;nbsp;=&amp;nbsp;&quot;C0014&quot;&amp;nbsp;THEN&amp;nbsp;RecordKey&amp;nbsp;=&amp;nbsp;&quot;C001400&quot;&amp;nbsp;ELSE&lt;/span&gt;&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;IF(Left(RecordKey,5)&amp;nbsp;=&amp;nbsp;&quot;CO019&quot;THEN&amp;nbsp;RecordKey&amp;nbsp;=&amp;nbsp;&quot;C001900&quot;&amp;nbsp;ELSE&lt;/span&gt;&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;IF(Left(RecordKey,7)&amp;nbsp;=&amp;nbsp;&quot;C000009&quot;&amp;nbsp;THEN&amp;nbsp;RecordKey&amp;nbsp;=&amp;nbsp;&quot;C000009&quot;&amp;nbsp;ELSE&amp;nbsp;REcordKey&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="800" width="520" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-9" value="IF(Left(Recordkey,7)&amp;nbsp;=&amp;nbsp;&quot;C000009&quot;&amp;nbsp;THEN&amp;nbsp;SegNo&amp;nbsp;=&amp;nbsp;&quot;000010&quot;&amp;nbsp;ELSE&amp;nbsp;d:PORTFOLIO&amp;nbsp;CODE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="705" width="490" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-10" value="Remove&amp;nbsp;duplicate&amp;nbsp;records&amp;nbsp;grouped&amp;nbsp;by&amp;nbsp;RecordKey,&amp;nbsp;&lt;br&gt;ReflD,&amp;nbsp;BookingCentre,&amp;nbsp;ReportDate,&amp;nbsp;d:PORTFOLIO&amp;nbsp;CODE&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Filter&amp;nbsp;for&amp;nbsp;Recordkey&amp;nbsp;values&amp;nbsp;as&amp;nbsp;(&quot;c000004&#39;&amp;nbsp;&quot;c00005&#39;&amp;nbsp;&quot;c00006&#39;&amp;nbsp;&lt;br&gt;&quot;c000007&quot;&amp;nbsp;&quot;ca00s&quot;,&quot;c0009&quot;&amp;nbsp;C00010&quot;&amp;nbsp;&quot;c000011&#39;,&amp;nbsp;&lt;br&gt;&quot;C000012&quot;&amp;nbsp;&quot;C001300&quot;&amp;nbsp;&quot;C00140&quot;&lt;/span&gt;&quot;C000015”&quot;C001900&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="807.5" width="400" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-11" value="Set&amp;nbsp;RecordKey&amp;nbsp;=&amp;nbsp;RecordKey&amp;nbsp;+&amp;nbsp;&quot;0&quot;&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;IF&amp;nbsp;(Left(Recordkey,7)&amp;nbsp;=&quot;C000009&quot;&amp;nbsp;THEN&amp;nbsp;SegNo&amp;nbsp;=&quot;000010&quot;&amp;nbsp;ELSE&amp;nbsp;d:PORTFOLIO&amp;nbsp;CODE&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="820" width="540" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-12" value="Filter&amp;nbsp;for&amp;nbsp;REcordKey&amp;nbsp;=&amp;nbsp;&quot;CO000999&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="960" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="uL13_3LR5IbQT9p--HEt-13" target="uL13_3LR5IbQT9p--HEt-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-13" value="Select&amp;nbsp;Columne&amp;nbsp;and&amp;nbsp;Column9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="955" width="190" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-14" value="Select&amp;nbsp;RefID.&amp;nbsp;BookingCentre,&amp;nbsp;ReportDate,&amp;nbsp;&lt;br&gt;d:PORTFOLIO&amp;nbsp;CODE&amp;nbsp;and&amp;nbsp;remove&amp;nbsp;duplicates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="455" y="1040" width="260" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="uL13_3LR5IbQT9p--HEt-15" target="uL13_3LR5IbQT9p--HEt-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-15" value="RefiD.Bookinacentrer&amp;nbsp;ReportDate.&amp;nbsp;d:PORTEOLIO&amp;nbsp;CODE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="725" y="1050" width="325" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-16" value="Join&amp;nbsp;by&amp;nbsp;RefID,&amp;nbsp;BookingCentre,&amp;nbsp;ReportDate.&amp;nbsp;d:PORTFOLI&amp;nbsp;CoDE&amp;nbsp;&lt;br&gt;and&amp;nbsp;exclude&amp;nbsp;those&amp;nbsp;d:PORTFOLIO&amp;nbsp;CODE&amp;nbsp;as&amp;nbsp;&quot;000000-00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="1000" width="350" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uL13_3LR5IbQT9p--HEt-17" value="Set&amp;nbsp;Recordkev&amp;nbsp;= C0000020&lt;br style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px;&quot;&gt;&lt;span style=&quot;color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: 13px; background-color: rgba(255, 255, 255, 0.01);&quot;&gt;Set&amp;nbsp;segNo&amp;nbsp;=&amp;nbsp;d:PORTFOLIO&amp;nbsp;CODE&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="1005" width="220" height="50" as="geometry" />
+        <mxCell id="ZdDOZ7Z_uZTjhpKbBkwY-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="85" y="178" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
